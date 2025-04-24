@@ -1,103 +1,98 @@
-import Image from "next/image";
+import Link from "next/link";
+import { MdEmail } from "react-icons/md";
+import { FaJsSquare, FaReact } from "react-icons/fa";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="mx-auto max-w-[700px] flex flex-col items-center justify-center gap-3 px-8 py-3 md:px-6 mt-20">
+      {/* sección de presentación */}
+      <section
+        aria-labelledby="presentacion-heading"
+        className="flex flex-col items-center text-center px-4"
+      >
+        <h1 className="font-bold text-neutral-800 text-4xl --font-geist-sans">
+          ¡Hola, soy Aristides!
+        </h1>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <p className="font-semibold text-gray-500 text-2xl --font-geist-sans mt-3">
+          A veces construyo cosas.
+        </p>
+
+        <p className="font-normal text-gray-500 text-lg --font-geist-sans mt-6 max-w-2xl">
+          Soy desarrollador de software en Panamá y creo soluciones web con un enfoque centrado en el diseño. En mi tiempo libre, practico atletismo y disfruto mantenerme activo mientras sigo aprendiendo y creciendo en el mundo de la tecnología.
+        </p>
+
+        <p className="font-normal text-gray-500 text-lg --font-geist-sans mt-2">
+          Aquí hay algunas tecnologías con las que he estado trabajando:
+        </p>
+
+        <ul className="flex flex-wrap justify-center gap-4 mx-auto mt-2 max-w-md">
+          <li className="flex items-center gap-2">
+            <FaReact className="text-sky-400 w-6 h-6" />
+            React
+          </li>
+          <li className="flex items-center gap-2">
+            <RiNextjsFill className="text-black dark:text-white w-6 h-6" />
+            NextJS
+          </li>
+          <li className="flex items-center gap-2">
+            <FaJsSquare className="text-yellow-400 w-6 h-6" />
+            JavaScript
+          </li>
+          <li className="flex items-center gap-2">
+            <RiTailwindCssFill className="text-sky-300 w-6 h-6" />
+            Tailwind CSS
+          </li>
+        </ul>
+
+        <a
+          href="mailto:izzat1029@hotmail.com"
+          title="correo"
+          aria-label="correo"
+          className="w-fit mx-auto flex items-center justify-center gap-2 border border-neutral-900 rounded-lg px-4 py-4 hover:bg-neutral-900 hover:text-gray-100 text-base mt-12 transition-colors duration-300 ease-in-out"
+        >
+          <MdEmail className="text-2xl" />
+          ¡Escríbeme!
+        </a>
+      </section>
+
+
+      {/* sección de proyectos */}
+      <section aria-labelledby="proyectos-heading" className="mt-20">
+        <h2 className="font-medium text-2xl text-gray-500 --font-geist-sans">/ Proyectos</h2>
+
+        <div className="flex flex-col md:flex-row  gap-6 md:gap-3 mt-6">
+
+          <Link href="/proyectos/hermes" className="flex-1">
+            <article className="h-full border rounded-lg p-4 hover:shadow-md transition-all duration-300 ease-in-out cursor-pointer transform hover:-translate-y-2">
+              <h3 className="text-lg font-semibold text-neutral-800">
+                Hermes App
+              </h3>
+              <p className="text-sm text-gray-500 mt-2">
+                Optimiza tu rendimiento calculando ritmos de carrera personalizados para entrenamientos y competencias.
+              </p>
+            </article>
+          </Link>
+
+          <Link href="/proyectos/macrofit" className="flex-1">
+            <article className="h-full border rounded-lg p-4 hover:shadow-md transition-all duration-300 ease-in-out cursor-pointer transform hover:-translate-y-2">
+              <h3 className="text-lg font-semibold text-neutral-800">
+                MacroFit
+              </h3>
+              <p className="text-sm text-gray-500 mt-2">Calcula tus macronutrientes según tu peso y objetivo fitness para una nutrición personalizada.</p>
+            </article>
+          </Link>
+
+          <Link href="/proyectos/conferencias-bahais-panama" className="flex-1">
+            <article className="h-full border rounded-lg p-4 hover:shadow-md transition-all duration-300 ease-in-out cursor-pointer transform hover:-translate-y-2">
+              <h3 className="text-lg font-semibold text-neutral-800">Conferencias Bahá’ís de Panamá</h3>
+              <p className="text-sm text-gray-500 mt-2">Un espacio para explorar la unidad humana y construir juntos una sociedad más espiritual y solidaria.</p>
+            </article>
+          </Link>
+
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+    </main>
   );
 }
