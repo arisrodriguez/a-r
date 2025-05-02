@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -25,15 +26,11 @@ export default function RootLayout({
     <html lang="es">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <body className={`${geistSans.variable} antialiased`}>
-
         <Header />
 
         {children}
 
-        <footer className="flex flex-col py-16 mt-8 items-center justify-center text-sm text-gray-900">
-          <p>Construido y diseñado por Aristides Rodríguez.</p>
-          <p>All rights reserved. ©</p>
-        </footer>
+        <Footer />
       </body>
     </html>
   );

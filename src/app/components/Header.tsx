@@ -32,7 +32,7 @@ export default function Header() {
                             href={item.href}
                             className={`text-base font-normal text-gray-500 relative rounded-lg px-3 py-1.5 transition-colors duration-300 ease-in-out  ${pathname === item.href
                                 ? "bg-gray-200 text-gray-900"
-                                : "text-gray-600"
+                                : "text-gray-600 hover:text-gray-900"
                                 }`}
                         >
                             {item.name}
