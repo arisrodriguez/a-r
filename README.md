@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Mi Sitio Web Personal
 
-## Getting Started
+Este es mi sitio web personal, diseñado para presentar mi perfil profesional, proyectos destacados y herramientas tecnológicas favoritas. Construido con un enfoque en UI/UX y diseño responsive, este proyecto refleja mis habilidades como desarrollador y mi evolución en el mundo del software.
 
-First, run the development server:
+El objetivo principal es crear una plataforma que represente mi identidad digital como desarrollador y facilite compartir mis proyectos, ideas y recursos con la comunidad.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📱 Diseño totalmente responsive
+- 📂 Secciones dedicadas: Inicio, Acerca de, Proyectos
+- 🔗 Integración con redes sociales
+- 💡 Enfoque en accesibilidad y experiencia de usuario
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tecnologías utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org/) — Framework React para SSR y SSG
+- [Tailwind CSS](https://tailwindcss.com/) — Utilidades para estilos rápidos y personalizados
+- [Framer Motion](https://www.framer.com/motion/) — Animaciones fluidas
+- [React Icons](https://react-icons.github.io/react-icons/) — Íconos personalizables
 
-## Learn More
+## 📫 Contacto
 
-To learn more about Next.js, take a look at the following resources:
+Puedes encontrarme en [mi sitio web](https://a-r.) o a través de mis redes sociales enlazadas allí.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
