@@ -1,10 +1,10 @@
 "use client";
-import { easeInOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaJsSquare, FaReact, FaFolder, FaGithub, FaArrowRight } from "react-icons/fa";
 import { BsArrowUpRightSquareFill } from "react-icons/bs";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { article } from "framer-motion/client";
+
 
 export default function ProjectsContent() {
 
@@ -12,7 +12,7 @@ export default function ProjectsContent() {
         <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
             className="mx-auto max-w-[700px] px-8 py-3 md:px-6 mt-20">
             <div className="mb-12">
                 <motion.h1
