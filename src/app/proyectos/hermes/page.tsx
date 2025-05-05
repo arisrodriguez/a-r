@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoArrowBackOutline } from "react-icons/io5";
@@ -34,7 +35,15 @@ export default function HermesPage() {
             </div>
 
             <div className="my-6">
-                <img src="/images/portada-hermes.webp" alt="Banner de Hermes" className="rounded-lg shadow-md" />
+                <Image
+                    src="/images/portada-hermes.webp"
+                    alt="Banner de Hermes"
+                    width={636}
+                    height={424}
+                    quality={100}
+                    className="rounded-lg shadow-md"
+                    unoptimized
+                />
             </div>
 
             <div className="text-gray-600 mt-4 space-y-4">
