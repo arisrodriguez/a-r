@@ -11,7 +11,7 @@ export default function AboutContent() {
         <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
             className="mx-auto max-w-[700px] px-8 py-3 md:px-6 mt-20">
             <motion.h1
                 initial={{ opacity: 0, y: 20 }}
@@ -30,18 +30,24 @@ export default function AboutContent() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.6, ease: "easeOut" }}
                 className="flex items-center justify-center gap-4 mx-auto py-18">
-                <img
+                <Image
                     src="/images/runner-mode.webp"
+                    width={250}
+                    height={268}
                     alt="Runner Mode"
                     className="hidden sm:block rounded-xl rotate-3 shadow-xl transition-transform duration-300 hover:scale-105"
                 />
-                <img
+                <Image
                     src="/images/formal-vibes.webp"
+                    width={250}
+                    height={268}
                     alt="Formal Vibes"
                     className="rounded-xl rotate-[-2deg] shadow-xl transition-transform duration-300 hover:scale-105"
                 />
-                <img
+                <Image
                     src="/images/camp-vibes.webp"
+                    width={250}
+                    height={268}
                     alt="Camp Vibes"
                     className="hidden md:block rounded-xl rotate-3 shadow-xl transition-transform duration-300 hover:scale-105"
                 />
@@ -190,7 +196,7 @@ export default function AboutContent() {
                                         width={60}
                                         height={60}
                                         quality={100}
-                                        priority
+                                        unoptimized
                                         className="rounded-full border border-gray-300 shadow-md"
                                     />
                                     <div className="flex flex-col gap-px">
