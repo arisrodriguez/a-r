@@ -49,8 +49,8 @@ export default function ProjectsContent() {
                         React
                     </li>
                     <li className="flex items-center gap-2">
-                        <RiNextjsFill className="text-black dark:text-white w-6 h-6" />
-                        NextJS
+                        <RiNextjsFill className="text-neutral-900 w-6 h-6" />
+                        Next.js
                     </li>
                     <li className="flex items-center gap-2">
                         <FaJsSquare className="text-yellow-400 w-6 h-6" />
