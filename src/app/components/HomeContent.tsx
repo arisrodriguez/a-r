@@ -1,8 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { i } from "framer-motion/client";
 import Link from "next/link";
-import { title } from "process";
 import { MdEmail } from "react-icons/md";
 
 
