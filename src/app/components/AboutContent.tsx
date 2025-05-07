@@ -85,7 +85,7 @@ export default function AboutContent() {
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 className="mt-18">
-                <h2 className="font-medium text-xl text-gray-500 --font-geist-sans mb-8">/ Conectar</h2>
+                <h2 className="font-medium text-xl text-gray-500 mb-8">/ Conectar</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
                     <a
@@ -97,7 +97,7 @@ export default function AboutContent() {
                     >
                         <div className="flex items-center gap-2">
                             <MdEmail className="text-xl" />
-                            <span className="font-normal text-base --font-geist-sans">Correo</span>
+                            <span className="font-normal text-base">Correo</span>
                         </div>
                         <FiArrowUpRight className="text-xl" />
                     </a>
@@ -107,11 +107,11 @@ export default function AboutContent() {
                         className="text-neutral-900 border border-neutral-900 h-12 rounded-lg flex items-center justify-between px-4 transition-all duration-300 ease-in-out hover:bg-neutral-100"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Instagram"
+                        aria-label="Linkedin"
                     >
                         <div className="flex items-center gap-2">
                             <FaLinkedin className="text-xl" />
-                            <span className="font-normal text-base --font-geist-sans">Linkedin</span>
+                            <span className="font-normal text-base">Linkedin</span>
                         </div>
                         <FiArrowUpRight className="text-xl" />
                     </a>
@@ -119,10 +119,13 @@ export default function AboutContent() {
                     <a
                         href="https://github.com/arisrodriguez"
                         className="text-neutral-900 border border-neutral-900 h-12 rounded-lg flex items-center justify-between px-4 transition-all duration-300 ease-in-out hover:bg-neutral-100"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
                     >
                         <div className="flex items-center gap-2">
                             <FaGithub className="text-xl" />
-                            <span className="font-normal text-base --font-geist-sans">GitHub</span>
+                            <span className="font-normal text-base">GitHub</span>
                         </div>
                         <FiArrowUpRight className="text-xl" />
                     </a>
@@ -132,11 +135,11 @@ export default function AboutContent() {
                         className="group text-neutral-900 border border-neutral-900 h-12 rounded-lg flex items-center justify-between px-4 transition-all duration-300 ease-in-out hover:bg-neutral-100"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Instagram"
+                        aria-label="Discord"
                     >
                         <div className="flex items-center gap-2">
                             <FaDiscord className="text-xl" />
-                            <span className="font-normal text-base --font-geist-sans">Discord</span>
+                            <span className="font-normal text-base">Discord</span>
                         </div>
                         <FiArrowUpRight className="text-xl" />
                     </a>
@@ -150,7 +153,7 @@ export default function AboutContent() {
                     >
                         <div className="flex items-center gap-2">
                             <FaInstagram className="text-xl" />
-                            <span className="font-normal text-base --font-geist-sans">Instagram</span>
+                            <span className="font-normal text-base">Instagram</span>
                         </div>
                         <FiArrowUpRight className="text-xl" />
                     </a>
@@ -160,11 +163,11 @@ export default function AboutContent() {
                         className="group text-neutral-900 border border-neutral-900 h-12 rounded-lg flex items-center justify-between px-4 transition-all duration-300 ease-in-out hover:bg-neutral-100"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Instagram"
+                        aria-label="Twitter"
                     >
                         <div className="flex items-center gap-2">
                             <RiTwitterXFill className="text-xl" />
-                            <span className="font-normal text-base --font-geist-sans">Twitter</span>
+                            <span className="font-normal text-base">Twitter</span>
                         </div>
                         <FiArrowUpRight className="text-xl" />
                     </a>

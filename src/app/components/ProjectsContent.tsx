@@ -36,8 +36,9 @@ export default function ProjectsContent() {
                 transition={{ delay: 0.5, duration: 0.6, ease: "easeOut" }}
                 className="space-y-4 mt-8">
                 <p className="font-normal text-base text-gray-900">
-                    Estos son algunos de los proyectos en los que he invertido tiempo y esfuerzo. Cada uno de ellos refleja los desafíos que he superado, el aprendizaje continuo 📚 y mi compromiso con crear soluciones funcionales y bien diseñadas 🎯. ¡Te invito a descubrirlos!
+                    Estos son algunos de los proyectos en los que he invertido tiempo y esfuerzo. Cada uno refleja desafíos superados, aprendizaje constante <span role="img" aria-label="libro">📚</span> y mi compromiso con soluciones funcionales y bien diseñadas <span role="img" aria-label="objetivo">🎯</span>. ¡Te invito a explorarlos!
                 </p>
+
                 <p className="font-normal text-base text-gray-900 mt-2">
                     A continuación, te comparto algunas de las tecnologías que he estado utilizando en estos proyectos:
                 </p>
