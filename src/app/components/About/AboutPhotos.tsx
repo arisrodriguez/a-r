@@ -7,7 +7,7 @@ export default function AboutPhotos() {
         <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.6, ease: "easeOut" }}
+            transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
             className="flex items-center justify-center gap-4 mx-auto py-18"
         >
             <Image
