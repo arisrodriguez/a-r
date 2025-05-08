@@ -9,8 +9,8 @@ export default function ProjectsContent() {
         <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
-            className="mx-auto max-w-[700px] px-8 py-3 md:px-6 mt-20"
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+            className="mx-auto max-w-[700px] px-8 py-3 md:px-6 mt-16"
         >
             <ProjectsHeader />
             <ProjectsDescription />
