@@ -20,5 +20,5 @@ El objetivo principal es crear una plataforma que represente mi identidad digita
 
 ## 📫 Contacto
 
-Puedes encontrarme en [mi sitio web](https://a-r.) o a través de mis redes sociales enlazadas allí.
+Puedes encontrarme en [mi sitio web](https://a-r-dev.vercel.app/) o a través de mis redes sociales enlazadas allí.
 
