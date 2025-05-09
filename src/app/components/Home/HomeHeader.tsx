@@ -31,16 +31,16 @@ export default function HomeHeader() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5, ease: "easeInOut" }}
-                className="font-normal text-gray-500 text-base mt-6"
+                className="font-normal text-gray-500 text-base mt-6 max-w-xl"
             >
-                Soy desarrollador de software en Panamá, especializado en soluciones web. En mi tiempo libre, practico atletismo y me mantengo activo mientras sigo aprendiendo.
+                Soy desarrollador de software en Panamá, especializado en la web con un enfoque centrado en el diseño. En mi tiempo libre, practico atletismo.
             </motion.p>
 
             <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.5, ease: "easeInOut" }}
-                className="font-normal text-gray-500 text-base mt-2"
+                className="font-normal text-gray-500 text-base mt-2 max-w-xl"
             >
                 Últimamente he estado trabajando con tecnologías como{" "}
                 <span className="text-neutral-900 font-medium">React</span>,{" "}
