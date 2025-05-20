@@ -5,9 +5,9 @@ import { MdEmail } from "react-icons/md";
 export default function HomeContact() {
     return (
         <motion.a
-            initial={{ opacity: 0, y: 15 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.6, ease: "easeInOut" }}
+            transition={{ delay: 0.4, duration: 0.35, ease: "easeInOut" }}
             href="mailto:izzat1029@hotmail.com"
             title="correo"
             aria-label="correo"

@@ -9,7 +9,7 @@ import AboutExperience from "./AboutExperience";
 export default function AboutContent() {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
             className="mx-auto max-w-[700px] px-8 py-3 md:px-6 mt-16"

@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function AboutPhotos() {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
+            transition={{ delay: 0.4, duration: 0.6, ease: "easeInOut" }}
             className="flex items-center justify-center gap-4 mx-auto py-18"
         >
             <Image
