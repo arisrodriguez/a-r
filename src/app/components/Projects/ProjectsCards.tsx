@@ -21,12 +21,14 @@ export default function ProjectsCards() {
                         <div className="flex items-center gap-4">
                             <a target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="GitHub"
                                 href="#"
                                 className=" cursor-not-allowed pointer-events-none">
                                 <FaGithub className="text-neutral-900 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                             </a>
                             <a target="_blank"
                                 rel="noopener noreferrer"
+                                about="Demo"
                                 href="#"
                                 className=" cursor-not-allowed pointer-events-none">
                                 <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
@@ -67,11 +69,13 @@ export default function ProjectsCards() {
                         <div className="flex items-center gap-4">
                             <a target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="GitHub"
                                 href="https://github.com/arisrodriguez/hermes-app">
                                 <FaGithub className="text-neutral-900 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                             </a>
                             <a target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="Demo"
                                 href="https://hermes-rc.vercel.app/">
                                 <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                             </a>
@@ -111,11 +115,13 @@ export default function ProjectsCards() {
                         <div className="flex items-center gap-4">
                             <a target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="GitHub"
                                 href="https://github.com/arisrodriguez/macrofit">
                                 <FaGithub className="text-neutral-900 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                             </a>
                             <a target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="Demo"
                                 href="https://macrofit-orcin.vercel.app/">
                                 <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                             </a>
@@ -155,11 +161,13 @@ export default function ProjectsCards() {
                         <div className="flex items-center gap-4">
                             <a target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="GitHub"
                                 href="https://github.com/arisrodriguez/global-bahais-conferences-panama">
                                 <FaGithub className="text-neutral-900 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                             </a>
                             <a target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="Demo"
                                 href="https://conferencias-bahai-panama.vercel.app/">
                                 <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                             </a>
@@ -238,11 +246,13 @@ export default function ProjectsCards() {
                                     <a target="_blank"
                                         rel="noopener noreferrer"
                                         href={proyecto.LinkGitHub}>
+                                        aria-label="GitHub"
                                         <FaGithub className="text-neutral-900 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                                     </a>
                                     <a target="_blank"
                                         rel="noopener noreferrer"
                                         href={proyecto.LinkDemo}>
+                                        aria-label="Demo"
                                         <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                                     </a>
                                 </div>
