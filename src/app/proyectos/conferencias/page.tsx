@@ -34,6 +34,7 @@ export default function ConferenciasPage() {
                     width={636}
                     height={424}
                     quality={85}
+                    priority
                     className="rounded-lg shadow-md"
                 />
             </div>
