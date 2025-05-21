@@ -7,9 +7,9 @@ import { BsArrowUpRightSquareFill } from "react-icons/bs";
 export default function ProjectsCards() {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 0.6, ease: "easeOut" }}
+            transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
             className="mt-15">
             <h2 className="font-medium text-xl text-gray-500 mb-6">/ Proyectos</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">

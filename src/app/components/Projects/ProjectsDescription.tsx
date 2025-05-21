@@ -5,9 +5,9 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 export default function ProjectsDescription() {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 25 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.6, ease: "easeInOut" }}
+            transition={{ delay: 0.39, duration: 0.6, ease: "easeInOut" }}
             className="space-y-4 mt-8">
             <p className="font-normal text-base text-gray-900">
                 Estos son algunos de los proyectos en los que he invertido tiempo y esfuerzo. Cada uno refleja desafíos superados, aprendizaje constante <span role="img" aria-label="libro">📚</span> y mi compromiso con soluciones funcionales y bien diseñadas <span role="img" aria-label="objetivo">🎯</span>. ¡Te invito a explorarlos!

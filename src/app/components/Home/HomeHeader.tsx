@@ -19,7 +19,7 @@ export default function HomeHeader() {
             <motion.p
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3, duration: 0.35, ease: "easeInOut" }}
+                transition={{ delay: 0.13, duration: 0.6, ease: "easeInOut" }}
                 className="font-semibold text-gray-500 text-2xl mt-3"
             >
                 A veces construyo cosas.
@@ -28,7 +28,7 @@ export default function HomeHeader() {
             <motion.p
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4, duration: 0.35, ease: "easeInOut" }}
+                transition={{ delay: 0.26, duration: 0.6, ease: "easeInOut" }}
                 className="font-normal text-gray-500 text-base mt-6 max-w-2xl"
             >
                 Soy desarrollador de software en Panamá, especializado en la web con un enfoque centrado en el diseño. Además, practico atletismo y creo videos para Youtube.
@@ -37,7 +37,7 @@ export default function HomeHeader() {
             <motion.p
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5, duration: 0.35, ease: "easeInOut" }}
+                transition={{ delay: 0.39, duration: 0.6, ease: "easeInOut" }}
                 className="font-normal text-gray-500 text-base mt-2 max-w-2xl"
             >
                 Últimamente he estado trabajando con tecnologías como{" "}
