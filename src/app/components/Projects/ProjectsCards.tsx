@@ -9,7 +9,7 @@ export default function ProjectsCards() {
         <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
+            transition={{ delay: 0.39, duration: 0.6, ease: "easeOut" }}
             className="mt-16">
             <h2 className="font-medium text-xl text-gray-500 mb-6">/ Proyectos</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -19,20 +19,20 @@ export default function ProjectsCards() {
                     <div className="flex items-center justify-between mb-8">
                         <FaFolder className="text-neutral-900 text-2xl" />
                         <div className="flex items-center gap-4">
-                            <a target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="GitHub"
-                                href="#"
-                                className=" cursor-not-allowed pointer-events-none">
+                            <span
+                                role="link"
+                                tabIndex={0}
+                                aria-label="GitHub no disponible"
+                                className="cursor-not-allowed">
                                 <FaGithub className="text-neutral-900 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
-                            </a>
-                            <a target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="Demo"
-                                href="#"
-                                className=" cursor-not-allowed pointer-events-none">
+                            </span>
+                            <span
+                                role="link"
+                                tabIndex={0}
+                                aria-label="Demo no disponible"
+                                className="cursor-not-allowed">
                                 <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
-                            </a>
+                            </span>
                         </div>
                     </div>
 
@@ -245,14 +245,14 @@ export default function ProjectsCards() {
                                 <div className="flex items-center gap-4">
                                     <a target="_blank"
                                         rel="noopener noreferrer"
-                                        href={proyecto.LinkGitHub}>
                                         aria-label="GitHub"
+                                        href={proyecto.LinkGitHub}>
                                         <FaGithub className="text-neutral-900 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                                     </a>
                                     <a target="_blank"
                                         rel="noopener noreferrer"
+                                         aria-label="Demo"
                                         href={proyecto.LinkDemo}>
-                                        aria-label="Demo"
                                         <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                                     </a>
                                 </div>
