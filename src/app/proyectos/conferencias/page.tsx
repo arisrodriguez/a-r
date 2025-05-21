@@ -33,9 +33,8 @@ export default function ConferenciasPage() {
                     alt="Banner de Conferencias"
                     width={636}
                     height={424}
-                    quality={100}
+                    quality={85}
                     className="rounded-lg shadow-md"
-                    unoptimized
                 />
             </div>
 
