@@ -40,9 +40,9 @@ export default function HermesPage() {
                     alt="Banner de Hermes"
                     width={636}
                     height={424}
-                    quality={100}
+                    quality={85}
+                    priority
                     className="rounded-lg shadow-md"
-                    unoptimized
                 />
             </div>
 
