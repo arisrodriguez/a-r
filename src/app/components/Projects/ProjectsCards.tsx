@@ -10,7 +10,7 @@ export default function ProjectsCards() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
-            className="mt-15">
+            className="mt-16">
             <h2 className="font-medium text-xl text-gray-500 mb-6">/ Proyectos</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                 {/* Card del proyecto lecturify */}
@@ -28,7 +28,7 @@ export default function ProjectsCards() {
                             </a>
                             <a target="_blank"
                                 rel="noopener noreferrer"
-                                about="Demo"
+                                aria-label="Demo"
                                 href="#"
                                 className=" cursor-not-allowed pointer-events-none">
                                 <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
@@ -37,10 +37,10 @@ export default function ProjectsCards() {
                     </div>
 
                     {/* Título y descripción */}
-                    <h1 className="font-bold text-xl text-neutral-900 mb-4">
+                    <h2 className="font-bold text-xl text-neutral-900 mb-4">
                         Lecturify
-                    </h1>
-                    <p className="font-normal text-base text-gray-500 mb-12">
+                    </h2>
+                    <p className="font-normal text-base text-gray-500 mb-6">
                         Administra los libros que quieres leer, estás leyendo o ya terminaste, todo desde un solo lugar.
                     </p>
 
@@ -83,10 +83,10 @@ export default function ProjectsCards() {
                     </div>
 
                     {/* Título y descripción */}
-                    <h1 className="font-bold text-xl text-neutral-900 mb-4">
+                    <h2 className="font-bold text-xl text-neutral-900 mb-4">
                         Hermes App
-                    </h1>
-                    <p className="font-normal text-base text-gray-500 mb-12">
+                    </h2>
+                    <p className="font-normal text-base text-gray-500 mb-6">
                         Optimiza tu rendimiento calculando ritmos de carrera personalizados para entrenamientos y competencias.
                     </p>
 
@@ -129,10 +129,10 @@ export default function ProjectsCards() {
                     </div>
 
                     {/* Título y descripción */}
-                    <h1 className="font-bold text-xl text-neutral-900 mb-4">
+                    <h2 className="font-bold text-xl text-neutral-900 mb-4">
                         MacroFit
-                    </h1>
-                    <p className="font-normal text-base text-gray-500 mb-12">
+                    </h2>
+                    <p className="font-normal text-base text-gray-500 mb-6">
                         Calcula tus macronutrientes según tu peso y objetivo fitness para una nutrición personalizada.
                     </p>
 
@@ -175,10 +175,10 @@ export default function ProjectsCards() {
                     </div>
 
                     {/* Título y descripción */}
-                    <h1 className="font-bold text-xl text-neutral-900 mb-4">
+                    <h2 className="font-bold text-xl text-neutral-900 mb-4">
                         Conferencias Bahá’ís de Panamá
-                    </h1>
-                    <p className="font-normal text-base text-gray-500 mb-12">
+                    </h2>
+                    <p className="font-normal text-base text-gray-500 mb-6">
                         Un espacio para explorar la unidad humana y construir juntos una sociedad más espiritual y solidaria.
                     </p>
 
@@ -262,7 +262,7 @@ export default function ProjectsCards() {
             {/* <h1 className="font-bold text-xl text-neutral-900 mb-4">
                                 {proyecto.title}
                             </h1>
-                            <p className="font-normal text-base text-gray-500 mb-12">
+                            <p className="font-normal text-base text-gray-500 mb-6">
                                 {proyecto.desc}
                             </p> */}
 
