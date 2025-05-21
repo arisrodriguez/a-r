@@ -41,9 +41,8 @@ export default function MacrofitPage() {
                     alt="Banner de MacroFit"
                     width={636}
                     height={424}
-                    quality={100}
+                    quality={85}
                     className="rounded-lg shadow-md"
-                    unoptimized
                 />
             </div>
 
@@ -76,6 +75,7 @@ export default function MacrofitPage() {
             <div className="flex flex-wrap gap-4 mt-6">
                 <Link
                     href="/proyectos"
+                    aria-label="Volver a la lista de proyectos"
                     className="flex gap-2 items-center px-4 py-2 border border-neutral-900 text-neutral-900 rounded-lg hover:bg-neutral-100 hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <IoArrowBackOutline />
@@ -86,6 +86,7 @@ export default function MacrofitPage() {
                     href="https://github.com/arisrodriguez/macrofit"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Ver en GitHub"
                     className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <FaGithub className="text-lg" />
@@ -95,6 +96,7 @@ export default function MacrofitPage() {
                     href="https://macrofit-orcin.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Ver en Vercel"
                     className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <FiArrowUpRight className="text-xl" />
