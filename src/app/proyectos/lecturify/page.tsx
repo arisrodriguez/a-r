@@ -42,6 +42,8 @@ export default function LecturifyPage() {
                     height={424}
                     quality={85}
                     className="rounded-lg shadow-md"
+                    sizes="(max-width: 768px) 100vw, 636px"
+                    priority
                 />
             </div>
 

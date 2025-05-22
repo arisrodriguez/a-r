@@ -41,8 +41,9 @@ export default function HermesPage() {
                     width={636}
                     height={424}
                     quality={85}
-                    priority
                     className="rounded-lg shadow-md"
+                    sizes="(max-width: 768px) 100vw, 636px"
+                    priority
                 />
             </div>
 
