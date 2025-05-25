@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 const links = [
     { href: "mailto:izzat1029@hotmail.com", icon: <MdEmail className="text-xl" />, label: "Correo" },
-    { href: "https://www.linkedin.com/in/aristides-rodr%C3%ADguez/", icon: <FaLinkedin className="text-xl" />, label: "Linkedin" },
+    { href: "https://www.linkedin.com/in/aristides-rodriguez-pa/", icon: <FaLinkedin className="text-xl" />, label: "Linkedin" },
     { href: "https://github.com/arisrodriguez", icon: <FaGithub className="text-xl" />, label: "GitHub" },
     { href: "https://discord.gg/uRRk3BBPgq", icon: <FaDiscord className="text-xl" />, label: "Discord" },
     { href: "https://instagram.com/soyizzat/", icon: <FaInstagram className="text-xl" />, label: "Instagram" },
