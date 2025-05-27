@@ -12,9 +12,7 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Aristides Rodríguez",
   description: "Aristides Rodríguez es un desarrollador de software panameño especializado en Front-end y diseño UI/UX. Conoce su portafolio, proyectos web, experiencia profesional y enfoque en soluciones tecnológicas con impacto.",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({
@@ -24,7 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={`${geistSans.variable} antialiased`}>
         <Header />
 
