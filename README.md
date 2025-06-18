@@ -22,3 +22,9 @@ El objetivo principal es crear una plataforma que represente mi identidad digita
 
 Puedes encontrarme en [mi sitio web](https://a-r-dev.vercel.app/) o a través de mis redes sociales enlazadas allí.
 
+## License
+
+- 📄 The **source code** is © 2025 Aristides Rodríguez. All rights reserved. No reuse or modification without permission.
+- 📝 The **content** (text, images) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+
