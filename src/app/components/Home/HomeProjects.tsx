@@ -15,7 +15,7 @@ const proyectos = [
     },
     {
         title: "Stellify",
-        desc: "Stellify crea constelaciones únicas del cielo según el día y lugar en que comenzó tu historia.",
+        desc: "Crea constelaciones únicas del cielo según el día y lugar en que comenzó tu historia.",
         Link: "/proyectos/stellify",
     },
 ];
@@ -24,7 +24,6 @@ export default function HomeProjects() {
     return (
         <section aria-labelledby="proyectos-heading" className="mt-20">
             <h2 className="font-medium text-xl text-gray-500">/ Destacados</h2>
-
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
                 {proyectos.map((proyecto, i) => (
                     <motion.div
