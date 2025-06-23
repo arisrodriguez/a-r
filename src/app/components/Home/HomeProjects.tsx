@@ -14,9 +14,9 @@ const proyectos = [
         Link: "/proyectos/macrofit",
     },
     {
-        title: "Lecturify",
-        desc: "Organiza tus libros por estado: por leer, leyendo o leídos. Todo en una sola aplicación.",
-        Link: "/proyectos/lecturify",
+        title: "Stellify",
+        desc: "Stellify crea constelaciones únicas del cielo según el día y lugar en que comenzó tu historia.",
+        Link: "/proyectos/stellify",
     },
 ];
 
