@@ -18,7 +18,7 @@ export default function ProjectsCards() {
                         title: "Stellify",
                         desc: "Stellify crea constelaciones únicas del cielo según el día y lugar en que comenzó tu historia.",
                         technologies: "React - Javascript - Tailwind CSS - API",
-                        Link: "/proyectos/lecturify",
+                        Link: "/proyectos/stellify",
                         LinkGitHub: "https://github.com/arisrodriguez/stellify",
                         LinkDemo: "https://stellify-weld.vercel.app/",
                     },
