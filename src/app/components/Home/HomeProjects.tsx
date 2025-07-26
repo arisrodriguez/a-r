@@ -23,7 +23,7 @@ const proyectos = [
 export default function HomeProjects() {
     return (
         <section aria-labelledby="proyectos-heading" className="mt-20">
-            <h2 className="font-medium text-xl text-gray-500">/ Destacados</h2>
+            <h2 className="font-medium text-xl text-gray-500 dark:text-neutral-400">/ Destacados</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
                 {proyectos.map((proyecto, i) => (
                     <motion.div
@@ -34,9 +34,9 @@ export default function HomeProjects() {
                         transition={{ delay: 0.1 * i, duration: 0.5, ease: "easeOut" }}
                     >
                         <Link href={proyecto.Link}>
-                            <article className="h-full border border-neutral-900 rounded-lg p-4 shadow-md transition-all duration-300 ease-in-out cursor-pointer transform hover:-translate-y-2">
-                                <h3 className="text-lg font-semibold text-neutral-900">{proyecto.title}</h3>
-                                <p className="text-sm text-gray-500 mt-2">{proyecto.desc}</p>
+                            <article className="h-full border border-neutral-900 dark:border-neutral-100 rounded-lg p-4 shadow-md transition-all duration-300 ease-in-out cursor-pointer transform hover:-translate-y-2">
+                                <h3 className="text-lg font-semibold text-neutral-900 dark:text-gray-100">{proyecto.title}</h3>
+                                <p className="text-sm text-gray-500 dark:text-neutral-400 mt-2">{proyecto.desc}</p>
                             </article>
                         </Link>
                     </motion.div>

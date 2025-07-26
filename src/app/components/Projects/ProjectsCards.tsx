@@ -11,7 +11,7 @@ export default function ProjectsCards() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.39, duration: 0.6, ease: "easeOut" }}
             className="mt-16">
-            <h2 className="font-medium text-xl text-gray-500 mb-6">/ Proyectos</h2>
+            <h2 className="font-medium text-xl text-gray-500 dark:text-neutral-400 mb-6">/ Proyectos</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                 {[
                     {
@@ -50,43 +50,43 @@ export default function ProjectsCards() {
                 ].map((proyecto) => (
                     <article
                         key={proyecto.title}
-                        className="relative border border-neutral-900 rounded-lg p-8 shadow-md transition-all duration-300 ease-in-out transform hover:-translate-y-2">
+                        className="relative border border-neutral-900 dark:border-gray-100 rounded-lg p-8 shadow-md transition-all duration-300 ease-in-out transform hover:-translate-y-2">
                         {/* Iconos arriba */}
                         <div className="flex items-center justify-between mb-8">
-                            <FaFolder className="text-neutral-900 text-2xl" />
+                            <FaFolder className="text-neutral-900 dark:text-gray-100 text-2xl" />
                             <div className="flex items-center gap-4">
                                 <a target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="GitHub"
                                     href={proyecto.LinkGitHub}>
-                                    <FaGithub className="text-neutral-900 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
+                                    <FaGithub className="text-neutral-900 dark:text-gray-100 text-2xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                                 </a>
                                 <a target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Demo"
                                     href={proyecto.LinkDemo}>
-                                    <BsArrowUpRightSquareFill className="text-neutral-900 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
+                                    <BsArrowUpRightSquareFill className="text-neutral-900 dark:text-gray-100 text-xl transition-all duration-300 hover:text-blue-500 hover:scale-110 hover:rotate-6" />
                                 </a>
                             </div>
                         </div>
 
                         {/* Título y descripción */}
-                        <h1 className="font-bold text-xl text-neutral-900 mb-4">
+                        <h1 className="font-bold text-xl text-neutral-900 dark:text-gray-100 mb-4">
                             {proyecto.title}
                         </h1>
-                        <p className="font-normal text-base text-gray-500 mb-6">
+                        <p className="font-normal text-base text-gray-500  dark:text-neutral-400 mb-6">
                             {proyecto.desc}
                         </p>
 
                         {/* Tecnologías */}
-                        <p className="font-normal text-sm text-gray-500 mb-8">
+                        <p className="font-normal text-sm text-gray-500  dark:text-neutral-400 mb-8">
                             {proyecto.technologies}
                         </p>
 
                         {/* Botón que aparece en hover en esquina inferior derecha */}
                         <Link
                             href={proyecto.Link}
-                            className="group flex gap-2 items-center bg-neutral-900 text-white rounded-lg px-2 py-1.5 mt-2 absolute bottom-4 right-4 text-xs transition-colors duration-200 ease-in-out hover:bg-blue-500 hover:scale-105 hover:shadow-md"
+                            className="group flex gap-2 items-center bg-neutral-900 text-white rounded-lg px-3 py-1.5 mt-2 absolute bottom-4 right-4 text-xs transition-colors duration-200 ease-in-out hover:bg-blue-500  hover:shadow-md dark:bg-gray-100 dark:text-neutral-800"
                         >
                             Ver más
                             <span className="transition-transform duration-200 group-hover:translate-x-1">

@@ -6,7 +6,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 
 const links = [
-    { href: "mailto:izzat1029@hotmail.com", icon: <MdEmail className="text-xl" />, label: "Correo" },
+    { href: "mailto:aris.devx@gmail.com", icon: <MdEmail className="text-xl" />, label: "Correo" },
     { href: "https://www.linkedin.com/in/aristides-rodriguez-pa/", icon: <FaLinkedin className="text-xl" />, label: "Linkedin" },
     { href: "https://github.com/arisrodriguez", icon: <FaGithub className="text-xl" />, label: "GitHub" },
     { href: "https://discord.gg/uRRk3BBPgq", icon: <FaDiscord className="text-xl" />, label: "Discord" },
@@ -22,14 +22,13 @@ export default function AboutSocialLinks() {
             transition={{ delay: 0.39, duration: 0.6, ease: "easeInOut" }}
             className="mt-16"
         >
-            <h2 className="font-medium text-xl text-gray-500 mb-8">/ Conectar</h2>
+            <h2 className="font-medium text-xl text-gray-500 dark:text-neutral-400 mb-8">/ Conectar</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {links.map(({ href, icon, label }) => (
                     <a
                         key={label}
                         href={href}
-                        className="text-neutral-900 border border-neutral-900 h-12 rounded-lg flex items-center justify-between px-4 transition-all duration-300 ease-in-out hover:bg-neutral-100"
-                        target="_blank"
+                        className="h-12 rounded-lg flex items-center justify-between px-4  text-neutral-900 border border-neutral-900 hover:bg-neutral-100 transition-all duration-300 ease-in-out dark:text-gray-100 dark:border-gray-100 dark:hover:bg-neutral-800"
                         rel="noopener noreferrer"
                         aria-label={label}
                     >

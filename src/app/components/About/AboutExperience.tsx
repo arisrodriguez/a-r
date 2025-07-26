@@ -10,15 +10,15 @@ export default function AboutExperience() {
             transition={{ delay: 0.39, duration: 0.6, ease: "easeInOut" }}
             className="mt-16"
         >
-            <h2 className="font-medium text-xl text-gray-500 mb-8">/ Experiencia</h2>
-            <p className="font-normal text-base text-gray-900">
+            <h2 className="font-medium text-xl text-gray-500 dark:neutral-400 mb-8">/ Experiencia</h2>
+            <p className="font-normal text-base text-gray-900 dark:text-gray-100">
                 Me especializo en React, desarrollo web, UI/UX y diseño de productos. Siempre estoy aprendiendo cosas nuevas y buscando crecer como desarrollador. Estos son algunos de los lugares en los que he trabajado.
             </p>
 
             <div className="mt-8">
                 <ul className="flex flex-col gap-6">
                     <li>
-                        <a className="flex justify-between w-3/4" href="#">
+                        <a className="flex justify-between w-full sm:w-3/4" href="#">
                             <div className="flex items-center gap-4">
                                 <Image
                                     src="/images/AllianceDevOps.webp"
@@ -30,11 +30,11 @@ export default function AboutExperience() {
                                     className="rounded-full border border-gray-300 shadow-md"
                                 />
                                 <div className="flex flex-col gap-px">
-                                    <p className="text-neutral-900 text-base">Software Developer</p>
-                                    <p className="text-gray-500 text-base">Freelance</p>
+                                    <p className="text-neutral-900 dark:text-gray-100 text-base">Software Developer</p>
+                                    <p className="text-gray-500 dark:gray-400 text-base">Freelance</p>
                                 </div>
                             </div>
-                            <p className="text-gray-500 text-base mt-1.5">2023 -</p>
+                            <p className="text-gray-500 dark:gray-400 text-base mt-1.5 pl-4">2023 - 2025</p>
                         </a>
                     </li>
                     {/* <li>
