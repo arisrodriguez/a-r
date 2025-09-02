@@ -28,7 +28,7 @@ export default function AboutSocialLinks() {
                     <a
                         key={label}
                         href={href}
-                        className="h-12 rounded-lg flex items-center justify-between px-4 bg-neutral-900 text-gray-50 hover:bg-neutral-800 transition-all duration-300 ease-in-out dark:text-gray-50 dark:bg-neutral-800 dark:hover:bg-neutral-700"
+                        className="h-12 rounded-lg flex items-center justify-between px-4 bg-gray-100 text-neutral-900 hover:bg-gray-200 transition-all duration-300 ease-in-out dark:text-gray-50 dark:bg-neutral-800 dark:hover:bg-neutral-700"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={label}
