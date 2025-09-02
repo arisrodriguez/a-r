@@ -14,7 +14,7 @@ const experience = [
     {
         id: 2,
         title: "Software Developer",
-        company: "Freelance - Alliance DevOps",
+        company: "Freelance",
         period: "2023 - 2025",
         logo: "/images/AllianceDevOps.webp",
         link: "https://alliancedevops.com/",
