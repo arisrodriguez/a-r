@@ -6,10 +6,10 @@ const experience = [
     {
         id: 1,
         title: "Software Developer",
-        company: "Prival",
+        company: "Acerta Seguros",
         period: "2025 - ",
-        logo: "/images/logo-prival.webp",
-        link: "https://www.prival.com/panama",
+        logo: "/images/logo-acerta.webp",
+        link: "https://acertaseguros.com/",
     },
     {
         id: 2,
