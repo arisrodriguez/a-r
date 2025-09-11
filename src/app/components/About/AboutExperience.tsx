@@ -5,7 +5,7 @@ import Image from "next/image";
 const experience = [
     {
         id: 1,
-        title: "Software Developer",
+        title: "Process Automation Developer",
         company: "Acerta Seguros",
         period: "2025 - ",
         logo: "/images/logo-acerta.webp",
@@ -13,8 +13,8 @@ const experience = [
     },
     {
         id: 2,
-        title: "Software Developer",
-        company: "Freelance",
+        title: "Front-End Developer",
+        company: "Alliance DevOps - Freelance",
         period: "2023 - 2025",
         logo: "/images/AllianceDevOps.webp",
         link: "https://alliancedevops.com/",
@@ -31,7 +31,7 @@ export default function AboutExperience() {
         >
             <h2 className="font-medium text-xl text-gray-500 dark:neutral-400 mb-8">/ Experiencia</h2>
             <p className="font-normal text-base text-gray-900 dark:text-gray-100">
-                Me especializo en React, desarrollo web, UI/UX y diseño de productos. Siempre estoy aprendiendo cosas nuevas y buscando crecer como desarrollador. Estos son algunos de los lugares en los que he trabajado.
+                Me especializo en React, desarrollo web, UX/UI y diseño de productos. Siempre estoy aprendiendo cosas nuevas y buscando crecer como desarrollador. Estos son algunos de los lugares en los que he trabajado.
             </p>
 
             <div className="mt-8">
