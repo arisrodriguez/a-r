@@ -20,7 +20,7 @@ export default function AboutStory() {
                 Pero mi vida no gira solo en torno al código. También tengo el privilegio de acompañar a un grupo de jóvenes en mi comunidad, donde juntos buscamos soluciones a los problemas del barrio a través del servicio desinteresado, la unidad y el amor a Dios.
             </p>
             <p className="mt-4 font-normal text-base text-gray-900 dark:text-gray-100">
-                Cuando no estoy en mi escritorio, puedes encontrarme entrenando en el gimnasio o en la pista de atletismo, compitiendo para Titans Running Team, disfrutando de la naturaleza o de una buena serie o película.
+                Cuando no estoy en mi escritorio, puedes encontrarme entrenando en el gimnasio o en la pista de atletismo, compitiendo en diferentes carrera, disfrutando de la naturaleza o de una buena serie o película.
             </p>
         </motion.div>
     );
