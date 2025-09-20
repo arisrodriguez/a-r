@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function LecturifyPage() {
     return (
-        <main className="max-w-[700px] mx-auto px-8 py-8 mt-20">
+        <main className="max-w-[700px] mx-auto px-8 py-8 mt-16">
             <h1 className="text-3xl font-bold text-neutral-800">Lecturify</h1>
             <div className="space-y-4 mt-4 text-gray-600">
                 <p className="">
@@ -78,7 +78,8 @@ export default function LecturifyPage() {
                 <Link
                     href="/proyectos"
                     aria-label="Volver a la lista de proyectos"
-                    className="flex gap-2 items-center px-4 py-2 border border-neutral-900 text-neutral-900 rounded-lg hover:bg-neutral-100 hover:scale-105 transition-all duration-300 ease-in-out"
+                    className="flex gap-2 items-center px-4 py-2 border border-neutral-900 text-neutral-900 rounded-lg hover:bg-neutral-100
+                    dark:hover:bg-transparent hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <IoArrowBackOutline />
                     Volver atras

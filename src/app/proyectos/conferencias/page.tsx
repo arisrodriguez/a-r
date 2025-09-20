@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 
 export default function ConferenciasPage() {
     return (
-        <main className="max-w-[700px] mx-auto px-8 py-8 mt-20">
-            <h1 className="text-3xl font-bold text-neutral-800"> Conferencias Bahá’ís de Panamá</h1>
-            <div className="space-y-4 mt-4 text-gray-600">
+        <main className="max-w-[700px] mx-auto px-8 py-8 mt-16">
+            <h1 className="text-3xl font-bold text-neutral-800 dark:text-gray-100"> Conferencias Bahá’ís de Panamá</h1>
+            <div className="space-y-4 mt-4 text-gray-600 dark:text-gray-400">
                 <p>
                     Es un sitio web informativo diseñado para presentar las Conferencias Bahá’ís Globales realizadas en distintas regiones de Panamá. En él se puede conocer el propósito de estas conferencias, dirigidas tanto a la comunidad en general como a jóvenes, junto con las fechas, lugares y temas clave.
                 </p>
@@ -40,18 +40,20 @@ export default function ConferenciasPage() {
             </div>
 
             <div className="text-gray-600 mt-4 space-y-4">
-                <h2 className="text-xl font-semibold  text-neutral-900">¿Por qué hicimos este sitio?</h2>
-                <p>
-                    Este proyecto nació como una colaboración voluntaria para apoyar al Consejo Regional de Oriente y Occidente de Panamá, con el fin de difundir y organizar de manera más efectiva una serie de conferencias dirigidas tanto a la comunidad en general como a jóvenes. La idea era contar con una herramienta centralizada, moderna y visualmente amigable que ayudara a comunicar el mensaje de las conferencias y facilitara el proceso de inscripción.
-                </p>
-                <p>
-                    Desarrollar esta plataforma representó una oportunidad para poner mis habilidades técnicas al servicio de una causa con impacto social y espiritual, permitiendo que más personas accedan fácilmente a la información y puedan participar activamente en estos espacios de reflexión y unidad.
-                </p>
+                <h2 className="text-xl font-semibold  text-neutral-900 dark:text-gray-100">¿Por qué hicimos este sitio?</h2>
+                <div className="dark:text-gray-400 space-y-4">
+                    <p>
+                        Este proyecto nació como una colaboración voluntaria para apoyar al Consejo Regional de Oriente y Occidente de Panamá, con el fin de difundir y organizar de manera más efectiva una serie de conferencias dirigidas tanto a la comunidad en general como a jóvenes. La idea era contar con una herramienta centralizada, moderna y visualmente amigable que ayudara a comunicar el mensaje de las conferencias y facilitara el proceso de inscripción.
+                    </p>
+                    <p>
+                        Desarrollar esta plataforma representó una oportunidad para poner mis habilidades técnicas al servicio de una causa con impacto social y espiritual, permitiendo que más personas accedan fácilmente a la información y puedan participar activamente en estos espacios de reflexión y unidad.
+                    </p>
+                </div>
             </div>
 
             {/* Footer del proyecto */}
-            <h2 className="text-xl font-semibold text-neutral-900 mt-6 mb-2">Tecnologías usadas</h2>
-            <ul className="list-disc list-inside text-gray-600">
+            <h2 className="text-xl font-semibold text-neutral-900 dark:text-gray-100 mt-6 mb-2">Tecnologías usadas</h2>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
                 <li>React – Biblioteca para interfaces basadas en componentes.</li>
                 <li>JavaScript – Lenguaje principal para la lógica del sitio.</li>
                 <li>Tailwind CSS – Framework para diseño rápido y responsive.</li>
@@ -63,7 +65,9 @@ export default function ConferenciasPage() {
                 <Link
                     href="/proyectos"
                     aria-label="Volver a la lista de proyectos"
-                    className="flex gap-2 items-center px-4 py-2 border border-neutral-900 text-neutral-900 rounded-lg hover:bg-neutral-100 hover:scale-105 transition-all duration-300 ease-in-out"
+                    className="flex gap-2 items-center px-4 py-2 border border-neutral-900 text-neutral-900
+                    dark:border-gray-100 dark:text-gray-100  hover:bg-neutral-100
+                    dark:hover:bg-transparent rounded-lg hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <IoArrowBackOutline />
                     Volver atrás
@@ -74,7 +78,8 @@ export default function ConferenciasPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Ver en GitHub"
-                    className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 hover:scale-105 transition-all duration-300 ease-in-out"
+                    className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800
+                    dark:bg-neutral-800  hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <FaGithub className="text-lg" />
                     Ver en GitHub
@@ -84,7 +89,8 @@ export default function ConferenciasPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Ver en Vercel"
-                    className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 hover:scale-105 transition-all duration-300 ease-in-out"
+                    className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800
+                    dark:bg-neutral-800  hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <FiArrowUpRight className="text-xl" />
                     Ver en Vercel

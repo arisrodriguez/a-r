@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 
 export default function MacrofitPage() {
     return (
-        <main className="max-w-[700px] mx-auto px-8 py-8 mt-20">
-            <h1 className="text-3xl font-bold text-neutral-800">MacroFit</h1>
-            <div className="space-y-4 mt-4 text-gray-600">
+        <main className="max-w-[700px] mx-auto px-8 py-8 mt-16">
+            <h1 className="text-3xl font-bold text-neutral-800 dark:text-gray-100">MacroFit</h1>
+            <div className="space-y-4 mt-4 text-gray-600 dark:text-gray-400">
                 <p className="">
                     MacroFit es una aplicación diseñada para ayudarte a alcanzar tus objetivos nutricionales de forma clara y precisa. Ya sea que quieras definir, mantener tu peso o ganar masa muscular, esta herramienta convierte tus metas en números concretos.
                 </p>
@@ -49,24 +49,26 @@ export default function MacrofitPage() {
             </div>
 
             <div className="text-gray-600 mt-4 space-y-4">
-                <h2 className="text-xl font-semibold  text-neutral-900">¿Cómo nació este proyecto?</h2>
-                <p>
-                    MacroFit nació de mi afinidad con el estilo de vida fitness y mi interés por mantener una alimentación equilibrada. Siempre me ha motivado crear herramientas que puedan aportar valor real a los demás, y esta app surgió como una forma de unir esa filosofía con mi crecimiento como desarrollador.
-                </p>
-                <p>
-                    Quise construir una aplicación sencilla pero funcional, que ayudara a las personas a calcular sus requerimientos diarios de macronutrientes según su objetivo: definir, mantener o aumentar masa muscular. Al mismo tiempo, me sirvió como ejercicio práctico para mejorar mis habilidades técnicas, enfocándome en crear una experiencia de usuario clara, útil y accesible.
-                </p>
-                <p>
-                    Desarrollé MacroFit con React, Tailwind CSS, priorizando una interfaz intuitiva y resultados rápidos.
-                </p>
-                <p>
-                    Más allá del código, este proyecto representa mi compromiso con crear soluciones digitales que tengan un impacto positivo —no solo para mí, sino también para quienes buscan herramientas simples que los acompañen en sus metas personales.
-                </p>
+                <h2 className="text-xl font-semibold  text-neutral-900 dark:text-gray-100">¿Cómo nació este proyecto?</h2>
+                <div className="dark:text-gray-400 space-y-4">
+                    <p>
+                        MacroFit nació de mi afinidad con el estilo de vida fitness y mi interés por mantener una alimentación equilibrada. Siempre me ha motivado crear herramientas que puedan aportar valor real a los demás, y esta app surgió como una forma de unir esa filosofía con mi crecimiento como desarrollador.
+                    </p>
+                    <p>
+                        Quise construir una aplicación sencilla pero funcional, que ayudara a las personas a calcular sus requerimientos diarios de macronutrientes según su objetivo: definir, mantener o aumentar masa muscular. Al mismo tiempo, me sirvió como ejercicio práctico para mejorar mis habilidades técnicas, enfocándome en crear una experiencia de usuario clara, útil y accesible.
+                    </p>
+                    <p>
+                        Desarrollé MacroFit con React, Tailwind CSS, priorizando una interfaz intuitiva y resultados rápidos.
+                    </p>
+                    <p>
+                        Más allá del código, este proyecto representa mi compromiso con crear soluciones digitales que tengan un impacto positivo —no solo para mí, sino también para quienes buscan herramientas simples que los acompañen en sus metas personales.
+                    </p>
+                </div>
             </div>
 
             {/* Footer del proyecto */}
-            <h2 className="text-xl font-semibold text-neutral-900 mt-6 mb-2">Tecnologías usadas</h2>
-            <ul className="list-disc list-inside text-gray-600">
+            <h2 className="text-xl font-semibold text-neutral-900 dark:text-gray-100 mt-6 mb-2">Tecnologías usadas</h2>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
                 <li>React – Biblioteca para interfaces basadas en componentes.</li>
                 <li>JavaScript – Lenguaje principal para la lógica del sitio.</li>
                 <li>Tailwind CSS – Framework para diseño rápido y responsive.</li>
@@ -78,7 +80,9 @@ export default function MacrofitPage() {
                 <Link
                     href="/proyectos"
                     aria-label="Volver a la lista de proyectos"
-                    className="flex gap-2 items-center px-4 py-2 border border-neutral-900 text-neutral-900 rounded-lg hover:bg-neutral-100 hover:scale-105 transition-all duration-300 ease-in-out"
+                    className="flex gap-2 items-center px-4 py-2 border border-neutral-900 text-neutral-900 
+                    dark:border-gray-100 dark:text-gray-100 rounded-lg hover:bg-neutral-100 
+                    dark:hover:bg-transparent hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <IoArrowBackOutline />
                     Volver atras
@@ -89,7 +93,8 @@ export default function MacrofitPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Ver en GitHub"
-                    className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 hover:scale-105 transition-all duration-300 ease-in-out"
+                    className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800
+                    dark:bg-neutral-800 hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <FaGithub className="text-lg" />
                     Ver en GitHub
@@ -99,7 +104,9 @@ export default function MacrofitPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Ver en Vercel"
-                    className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 hover:scale-105 transition-all duration-300 ease-in-out"
+                    className="flex gap-2 items-center px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 
+                    dark:bg-neutral-800
+                    hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                     <FiArrowUpRight className="text-xl" />
                     Ver en Vercel
