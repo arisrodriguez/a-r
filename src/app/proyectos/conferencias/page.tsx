@@ -17,7 +17,7 @@ export default function ConferenciasPage() {
     return (
         <main className="max-w-[700px] mx-auto px-8 py-8 mt-16">
             <h1 className="text-3xl font-bold text-neutral-800 dark:text-gray-100"> Conferencias Bahá’ís de Panamá</h1>
-            <div className="space-y-4 mt-4 text-gray-600 dark:text-gray-400">
+            <div className="space-y-4 mt-4 text-gray-600 dark:text-neutral-400">
                 <p>
                     Es un sitio web informativo diseñado para presentar las Conferencias Bahá’ís Globales realizadas en distintas regiones de Panamá. En él se puede conocer el propósito de estas conferencias, dirigidas tanto a la comunidad en general como a jóvenes, junto con las fechas, lugares y temas clave.
                 </p>
@@ -41,7 +41,7 @@ export default function ConferenciasPage() {
 
             <div className="text-gray-600 mt-4 space-y-4">
                 <h2 className="text-xl font-semibold  text-neutral-900 dark:text-gray-100">¿Por qué hicimos este sitio?</h2>
-                <div className="dark:text-gray-400 space-y-4">
+                <div className="dark:text-neutral-400 space-y-4">
                     <p>
                         Este proyecto nació como una colaboración voluntaria para apoyar al Consejo Regional de Oriente y Occidente de Panamá, con el fin de difundir y organizar de manera más efectiva una serie de conferencias dirigidas tanto a la comunidad en general como a jóvenes. La idea era contar con una herramienta centralizada, moderna y visualmente amigable que ayudara a comunicar el mensaje de las conferencias y facilitara el proceso de inscripción.
                     </p>
@@ -53,7 +53,7 @@ export default function ConferenciasPage() {
 
             {/* Footer del proyecto */}
             <h2 className="text-xl font-semibold text-neutral-900 dark:text-gray-100 mt-6 mb-2">Tecnologías usadas</h2>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
+            <ul className="list-disc list-inside text-gray-600 dark:text-neutral-400">
                 <li>React – Biblioteca para interfaces basadas en componentes.</li>
                 <li>JavaScript – Lenguaje principal para la lógica del sitio.</li>
                 <li>Tailwind CSS – Framework para diseño rápido y responsive.</li>

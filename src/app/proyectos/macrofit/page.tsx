@@ -17,7 +17,7 @@ export default function MacrofitPage() {
     return (
         <main className="max-w-[700px] mx-auto px-8 py-8 mt-16">
             <h1 className="text-3xl font-bold text-neutral-800 dark:text-gray-100">MacroFit</h1>
-            <div className="space-y-4 mt-4 text-gray-600 dark:text-gray-400">
+            <div className="space-y-4 mt-4 text-gray-600 dark:text-neutral-400">
                 <p className="">
                     MacroFit es una aplicación diseñada para ayudarte a alcanzar tus objetivos nutricionales de forma clara y precisa. Ya sea que quieras definir, mantener tu peso o ganar masa muscular, esta herramienta convierte tus metas en números concretos.
                 </p>
@@ -50,7 +50,7 @@ export default function MacrofitPage() {
 
             <div className="text-gray-600 mt-4 space-y-4">
                 <h2 className="text-xl font-semibold  text-neutral-900 dark:text-gray-100">¿Cómo nació este proyecto?</h2>
-                <div className="dark:text-gray-400 space-y-4">
+                <div className="dark:text-neutral-400 space-y-4">
                     <p>
                         MacroFit nació de mi afinidad con el estilo de vida fitness y mi interés por mantener una alimentación equilibrada. Siempre me ha motivado crear herramientas que puedan aportar valor real a los demás, y esta app surgió como una forma de unir esa filosofía con mi crecimiento como desarrollador.
                     </p>
@@ -68,7 +68,7 @@ export default function MacrofitPage() {
 
             {/* Footer del proyecto */}
             <h2 className="text-xl font-semibold text-neutral-900 dark:text-gray-100 mt-6 mb-2">Tecnologías usadas</h2>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
+            <ul className="list-disc list-inside text-gray-600 dark:text-neutral-400">
                 <li>React – Biblioteca para interfaces basadas en componentes.</li>
                 <li>JavaScript – Lenguaje principal para la lógica del sitio.</li>
                 <li>Tailwind CSS – Framework para diseño rápido y responsive.</li>

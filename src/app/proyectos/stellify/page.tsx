@@ -17,7 +17,7 @@ export default function StellifyPage() {
     return (
         <main className="max-w-[700px] mx-auto px-8 py-8 mt-16">
             <h1 className="text-3xl font-bold text-neutral-800 dark:text-gray-100">Stellify</h1>
-            <div className="space-y-4 mt-4 text-gray-600 dark:text-gray-400">
+            <div className="space-y-4 mt-4 text-gray-600 dark:text-neutral-400">
                 <p className="">
                     Stellify es una aplicación web que convierte momentos únicos de la vida en representaciones visuales del cielo estrellado. A través de la fecha, la hora y la ubicación geográfica de un evento importante, Stellify genera una constelación personalizada que muestra cómo se veía el cielo exactamente en ese instante.
                 </p>
@@ -49,7 +49,7 @@ export default function StellifyPage() {
 
             <div className="text-gray-600 mt-4 space-y-4">
                 <h2 className="text-xl font-semibold  text-neutral-900 dark:text-gray-100">¿Cómo nació este proyecto?</h2>
-                <div className="dark:text-gray-400 space-y-4">
+                <div className="dark:text-neutral-400 space-y-4">
                     <p>
                         La idea de Stellify surgió de una necesidad muy humana: guardar los momentos importantes de una forma que trascienda lo cotidiano. En una conversación sobre lo rápido que pasa el tiempo y lo fácil que es olvidar detalles de días especiales, nació la inquietud de crear algo que permitiera conmemorar instantes únicos de forma visual y significativa. ¿Qué mejor que el cielo eterno, vasto y lleno de simbolismo para representar un recuerdo?
                     </p>
@@ -65,7 +65,7 @@ export default function StellifyPage() {
             {/* Footer del proyecto */}
             <h2 className="text-xl font-semibold text-neutral-900
             dark:text-gray-100 mt-6 mb-2">Tecnologías usadas</h2>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
+            <ul className="list-disc list-inside text-gray-600 dark:text-neutral-400">
                 <li>React – Biblioteca para interfaces basadas en componentes.</li>
                 <li>JavaScript – Lenguaje principal para la lógica del sitio.</li>
                 <li>Tailwind CSS – Framework para diseño rápido y responsive.</li>
