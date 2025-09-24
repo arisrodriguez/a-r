@@ -41,10 +41,10 @@ export default function HomeHeader() {
                 className="font-normal text-gray-500 dark:text-gray-300 text-base mt-2 max-w-2xl"
             >
                 Últimamente he estado trabajando con tecnologías como{" "}
-                <span className="text-neutral-900 dark:text-neutral-100">React</span>,{" "}
-                <span className="text-neutral-900 dark:text-neutral-100">Next.js</span>,{" "}
-                <span className="text-neutral-900 dark:text-neutral-100">JavaScript</span> y{" "}
-                <span className="text-neutral-900 dark:text-neutral-100">Tailwind CSS</span>.
+                <span className="text-neutral-900 dark:text-neutral-100 font-medium">React.js</span>,{" "}
+                <span className="text-neutral-900 dark:text-neutral-100 font-medium">Next.js</span>,{" "}
+                <span className="text-neutral-900 dark:text-neutral-100 font-medium">JavaScript</span> y{" "}
+                <span className="text-neutral-900 dark:text-neutral-100 font-medium">Tailwind CSS</span>.
             </motion.p>
 
             <HomeContact />
