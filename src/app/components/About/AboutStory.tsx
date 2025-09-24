@@ -11,7 +11,7 @@ export default function AboutStory() {
             <h2 className="font-medium text-xl text-gray-500 dark:text-neutral-400 mb-8">/ Mi historia</h2>
             <p className="font-normal text-base text-gray-900 dark:text-gray-100">
                 ¡Hola! Soy Aristides Rodríguez, un panameño apasionado por la tecnología y la creatividad.
-                A lo largo de mi camino profesional, me he desempeñado como desarrollador de software, especializándome en el desarrollo Front-end y diseño UI/UX.
+                A lo largo de mi camino profesional, me he desempeñado como desarrollador de software, especializándome en el desarrollo Front-end y diseño UX/UI.
             </p>
             <p className="mt-4 font-normal text-base text-gray-900 dark:text-gray-100">
                 Mi pasión por la programación comenzó mientras estudiaba la carrera de Ingeniería Electromecánica. En ese tiempo cursé una materia de programación y, para mi sorpresa, no solo me gustó mucho, sino que se me daba bastante bien. Ese descubrimiento despertó algo en mí, y fue lo que me llevó a tomar una gran decisión: cambiarme a la Facultad de Ingeniería en Sistemas.
