@@ -5,7 +5,7 @@ import Image from "next/image";
 const experience = [
     {
         id: 1,
-        title: "Process Automation Developer",
+        title: "Process Automation Developer", //Process Analyst & Transformation
         company: "Acerta Seguros",
         period: "2025 - ",
         logo: "/images/logo-acerta.webp",
@@ -29,7 +29,7 @@ export default function AboutExperience() {
             transition={{ delay: 0.39, duration: 0.6, ease: "easeInOut" }}
             className="mt-16"
         >
-            <h2 className="font-medium text-xl text-gray-500 dark:neutral-400 mb-8">/ Experiencia</h2>
+            <h2 className="font-medium text-xl text-gray-500 dark:text-neutral-400 mb-8">/ Experiencia</h2>
             <p className="font-normal text-base text-gray-900 dark:text-gray-100">
                 Me especializo en React.js, desarrollo web, UX/UI y diseño de productos. Siempre estoy aprendiendo cosas nuevas y buscando crecer como desarrollador. Estos son algunos de los lugares en los que he trabajado.
             </p>
@@ -53,10 +53,10 @@ export default function AboutExperience() {
                                     />
                                     <div className="flex flex-col gap-px">
                                         <p className="text-neutral-900 dark:text-gray-100 text-base">{experience.title}</p>
-                                        <p className="text-gray-500 dark:gray-400 text-base">{experience.company}</p>
+                                        <p className="text-gray-500 dark:text-neutral-400 text-base">{experience.company}</p>
                                     </div>
                                 </div>
-                                <p className="text-gray-500 dark:gray-400 text-base mt-1.5 pl-4">{experience.period}</p>
+                                <p className="text-gray-500 dark:text-neutral-400 text-base mt-1.5 pl-4">{experience.period}</p>
                             </a>
                         </li>
                     </ul>
