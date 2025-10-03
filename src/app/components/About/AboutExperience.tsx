@@ -14,10 +14,10 @@ const experience = [
     {
         id: 2,
         title: "Front-End Developer",
-        company: "Alliance DevOps - Freelance",
+        company: "Freelance",
         period: "2023 - 2025",
-        logo: "/images/AllianceDevOps.webp",
-        link: "https://alliancedevops.com/",
+        logo: "/images/logo-mi-web.webp",
+        link: "https://a-r-dev.vercel.app/",
     },
 ];
 
@@ -31,7 +31,7 @@ export default function AboutExperience() {
         >
             <h2 className="font-medium text-xl text-gray-500 dark:text-neutral-400 mb-8">/ Experiencia</h2>
             <p className="font-normal text-base text-gray-900 dark:text-gray-100">
-                Me especializo en React.js, desarrollo web, UX/UI y diseño de productos. Siempre estoy aprendiendo cosas nuevas y buscando crecer como desarrollador. Estos son algunos de los lugares en los que he trabajado.
+                Me especializo en React, desarrollo web, UX/UI y diseño de productos. Siempre estoy aprendiendo cosas nuevas y buscando crecer como desarrollador. Estos son algunos de los lugares en los que he trabajado.
             </p>
 
             <div className="mt-8">
