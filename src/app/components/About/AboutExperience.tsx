@@ -5,7 +5,7 @@ import Image from "next/image";
 const experience = [
     {
         id: 1,
-        title: "Process Automation Developer", //Process Analyst & Transformation
+        title: "Analista de Procesos y Transformación", //Process Analyst & Transformation
         company: "Acerta Seguros",
         period: "2025 - ",
         logo: "/images/logo-acerta.webp",
@@ -13,7 +13,7 @@ const experience = [
     },
     {
         id: 2,
-        title: "Front-End Developer",
+        title: "Desarrollador Web",
         company: "Freelance",
         period: "2023 - 2025",
         logo: "/images/logo-mi-web.webp",
