@@ -10,17 +10,13 @@ export default function AboutStory() {
         >
             <h2 className="font-medium text-xl text-gray-500 dark:text-neutral-400 mb-8">/ Mi historia</h2>
             <p className="font-normal text-base text-gray-900 dark:text-gray-100">
-                ¡Hola! Soy Aristides Rodríguez, un panameño apasionado por la tecnología y la creatividad.
-                A lo largo de mi camino profesional, me he desempeñado como desarrollador de software, especializándome en el desarrollo Front-end y diseño UX/UI.
+                Mi interés por la programación nació mientras estudiaba Ingeniería Electromecánica. Una materia de programación despertó una pasión que no esperaba descubrir, y fue ese momento el que me llevó a cambiarme a la Facultad de Ingeniería en Sistemas para dedicarme al desarrollo de software.
             </p>
             <p className="mt-4 font-normal text-base text-gray-900 dark:text-gray-100">
                 Mi pasión por la programación comenzó mientras estudiaba la carrera de Ingeniería Electromecánica. En ese tiempo cursé una materia de programación y, para mi sorpresa, no solo me gustó mucho, sino que se me daba bastante bien. Ese descubrimiento despertó algo en mí, y fue lo que me llevó a tomar una gran decisión: cambiarme a la Facultad de Ingeniería en Sistemas.
             </p>
             <p className="mt-4 font-normal text-base text-gray-900 dark:text-gray-100">
-                Pero mi vida no gira solo en torno al código. También tengo el privilegio de acompañar a un grupo de jóvenes en mi comunidad, donde juntos buscamos soluciones a los problemas del barrio a través del servicio desinteresado, la unidad y el amor a Dios.
-            </p>
-            <p className="mt-4 font-normal text-base text-gray-900 dark:text-gray-100">
-                Cuando no estoy en mi escritorio, puedes encontrarme entrenando en el gimnasio o en la pista de atletismo, compitiendo en diferentes carrera, disfrutando de la naturaleza o de una buena serie o película.
+                Más allá del trabajo, también dedico parte de mi tiempo al servicio comunitario junto a jóvenes de mi comunidad, promoviendo iniciativas basadas en la unidad, el aprendizaje y el servicio. Cuando no estoy programando, suelo estar entrenando atletismo, en el gimnasio o disfrutando de la naturaleza.
             </p>
         </motion.div>
     );
