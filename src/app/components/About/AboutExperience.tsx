@@ -47,7 +47,7 @@ export default function AboutExperience() {
                                         alt="Logo de la compañia"
                                         width={60}
                                         height={60}
-                                        quality={100}
+                                        quality={75}
                                         unoptimized
                                         className="rounded-full border border-gray-300 shadow-md"
                                     />
